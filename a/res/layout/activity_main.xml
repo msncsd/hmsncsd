@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a.MainActivity">
+    <LinarLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button android:id="@+id/loadImg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Image Load"
+            android:onClick="mOnClick"/>
+        <ImageView android:id="@+id/selectImg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </LinarLayout>
+</RelativeLayout>
+
